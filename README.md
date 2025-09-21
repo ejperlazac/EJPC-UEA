@@ -1,34 +1,22 @@
-# EJPC-UEA
+# Cálculo de Descuento en Compras
 
-#Repositorio para la materia de Fundamentos de Programación  
-#Aquí se encuentran dos programas en Python relacionados con búsqueda y ordenación en arreglos multidimensionales.
+# Objetivo
+Este programa en Python calcula el monto del descuento y el monto final a pagar en función del total de la compra y el porcentaje de descuento aplicado.  
+Es una práctica de uso de **funciones en Python**, con parámetros, valores predeterminados y retorno de valores.
 
-# 1. busqueda.py
-- Contiene una matriz 3x3.
-- Permite buscar un valor dentro de la matriz.
-- Indica si el valor fue encontrado y su posición.
-  matriz = [
-    [4, 8, 15],
-    [16, 23, 42],
-    [10, 20, 30]
-]
--Valor 42 encontrado en la posición (1, 2)
+# Funcionamiento
+La función principal `calcular_descuento` recibe:
+- `monto_total`: valor total de la compra.
+- `porcentaje_descuento`: porcentaje de descuento a aplicar (por defecto 10%).
 
-# 2. ordenacion.py
-- Contiene una matriz 3x3.
-- Ordena una fila específica utilizando el algoritmo BubbleSort.
-- Muestra la matriz original y la modificada.
-- fila_a_ordenar = 2
+La función devuelve el valor del descuento.
 
-Matriz original:
-[9, 2, 7]
-[4, 8, 1]
-[6, 3, 5]
+# Ejecución
+Para ejecutar el programa, usa en la terminal:
 
-Matriz con la fila ordenada:
-[9, 2, 7]
-[4, 8, 1]
-[3, 5, 6]
+```bash
+py calculo_descuento.py
+
 
 Realizado por: Evelin Janeth Perlaza Campas
 
