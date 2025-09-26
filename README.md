@@ -24,5 +24,5 @@ Utilizar diccionarios en Python para representar información estructurada y rea
 # Resultado esperado
 ```bash
 Diccionario final con la información personal:
-{'nombre': 'Evelyn Perlaza', 'ciudad': 'Sangolquí', 'profesion': 'Estudiante de Derecho y TI', 'telefono': '0962666820'}
+{'nombre': 'Evelin Perlaza', 'ciudad': 'Sangolquí', 'profesion': 'Estudiante de Derecho y TI', 'telefono': '0962666820'}
 
