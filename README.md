@@ -1,27 +1,3 @@
-# Cálculo de Descuento en Compras
-
-## Objetivo
-Este programa en Python calcula el monto del descuento y el monto final a pagar en función del total de la compra y el porcentaje de descuento aplicado.  
-Es una práctica de uso de **funciones en Python**, con parámetros, valores predeterminados y retorno de valores.
-
-## Funcionamiento
-La función principal `calcular_descuento` recibe:
-- `monto_total`: valor total de la compra.
-- `porcentaje_descuento`: porcentaje de descuento a aplicar (por defecto 10%).
-
-La función devuelve el valor del descuento.
-
-## Ejecución
-Para ejecutar el programa, usa en la terminal:
-
-```bash
-py calculo_descuento.py
-
-
-Realizado por: Evelin Janeth Perlaza Campas
-
----
-
 # Trabajando con Diccionarios en Python
 
 # Objetivo
@@ -36,10 +12,10 @@ Utilizar diccionarios en Python para representar información estructurada y rea
 
 2. Se modificaron los valores:
    - `ciudad` → cambiado de `"Quito"` a `"Sangolquí"`.
-   - `profesion` → actualizado a `"Estudiante de Derecho y TI"`.
+   - `profesion` → actualizado a `"Estudiante de Derecho y TIC"`.
 
 3. Se verificó la existencia de la clave `telefono`:
-   - Como no existía, se agregó con el valor `"0962666820"`.
+   - Como no existía, se agregó con el valor `"0999999999"`.
 
 4. Se eliminó la clave `edad`.
 
@@ -48,6 +24,5 @@ Utilizar diccionarios en Python para representar información estructurada y rea
 # Resultado esperado
 ```bash
 Diccionario final con la información personal:
-{'nombre': 'Evelyn Perlaza', 'ciudad': 'Sangolquí', 'profesion': 'Estudiante de Derecho y TI', 'telefono': '0962666820'}
-
+{'nombre': 'Evelyn Perlaza', 'ciudad': 'Sangolquí', 'profesion': 'Estudiante de Derecho y TIC', 'telefono': '0999999999'}
 
