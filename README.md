@@ -1,28 +1,29 @@
-# Trabajando con Diccionarios en Python
+Manejo de Archivos de Texto en Python
+Objetivo
 
-# Objetivo
-Utilizar diccionarios en Python para representar información estructurada y realizar operaciones comunes.
+Aprender a crear, escribir y leer archivos de texto en Python utilizando los métodos open(), write() y readline(), garantizando el correcto cierre del archivo y la preservación de los datos escritos.
 
-# Desarrollo paso a paso
-1. Se creó el diccionario `informacion_personal` con las claves:
-   - `nombre`
-   - `edad`
-   - `ciudad`
-   - `profesion`
+Desarrollo paso a paso
 
-2. Se modificaron los valores:
-   - `ciudad` → cambiado de `"Quito"` a `"Sangolquí"`.
-   - `profesion` → actualizado a `"Estudiante de Derecho y TI"`.
+Se creó el archivo de texto my_notes.txt mediante el uso de la función open() en modo escritura ('w').
 
-3. Se verificó la existencia de la clave `telefono`:
-   - Como no existía, se agregó con el valor `"0962666820"`.
+Se escribieron tres líneas de notas personales con el método write().
 
-4. Se eliminó la clave `edad`.
+Se cerró el archivo para asegurar que la información quedara guardada correctamente.
 
-5. Se imprimió el diccionario final.
+Se reabrió el archivo en modo lectura ('r') y se leyó línea por línea con readline().
 
-# Resultado esperado
-```bash
-Diccionario final con la información personal:
-{'nombre': 'Evelin Perlaza', 'ciudad': 'Sangolquí', 'profesion': 'Estudiante de Derecho y TI', 'telefono': '0962666820'}
+Se mostraron los datos en la consola y se confirmó el cierre del archivo.
 
+Resultado esperado
+Archivo 'my_notes.txt' creado y guardado correctamente.  
+
+=== Lectura del contenido del archivo "my_notes.txt" ===  
+Aprender Python me ayuda a desarrollar la lógica para resolver problemas.  
+La programación me permite automatizar tareas que antes hacía manualmente.  
+Comprender cómo funcionan los archivos facilita el manejo de información real.  
+
+El archivo 'my_notes.txt' fue cerrado exitosamente.
+
+Autor:
+Evelin Perlaza
