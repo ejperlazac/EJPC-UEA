@@ -1,0 +1,3 @@
+Aprender Python me ayuda a desarrollar la lógica para resolver problemas.
+La programación me permite automatizar tareas que antes hacía manualmente.
+Comprender cómo funcionan los archivos facilita el manejo de información real.
