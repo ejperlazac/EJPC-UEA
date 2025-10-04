@@ -2,9 +2,7 @@
 # Universidad Estatal Amazónica
 # Autor: Evelyn Perlaza
 
-# =========================================
-# 1️⃣ ESCRITURA DE ARCHIVO DE TEXTO
-# =========================================
+# ESCRITURA DE ARCHIVO DE TEXTO
 archivo = open("my_notes.txt", "w")
 
 archivo.write("Aprender Python me ayuda a desarrollar la lógica para resolver problemas.\n")
@@ -14,9 +12,7 @@ archivo.write("Comprender cómo funcionan los archivos facilita el manejo de inf
 archivo.close()
 print("Archivo 'my_notes.txt' creado y guardado correctamente.\n")
 
-# =========================================
-# 2️⃣ LECTURA DE ARCHIVO DE TEXTO
-# =========================================
+# LECTURA DE ARCHIVO DE TEXTO
 archivo = open("my_notes.txt", "r")
 
 print("=== Lectura del contenido del archivo 'my_notes.txt' ===\n")
